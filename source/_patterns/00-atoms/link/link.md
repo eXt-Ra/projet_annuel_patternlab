@@ -1,5 +1,5 @@
 ---
-title: navbar2
+title: Link
 ---
 
 [Insert description here]

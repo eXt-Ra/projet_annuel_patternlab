@@ -1,1 +1,10 @@
-@import "/Users/eXtRa/Documents/Dev/PatternLabFresh/node_modules/bulma/bulma.sass";
+@import "../../node_modules/bulma/bulma.sass";
+
+
+.lien {
+  color : #22D0B2;
+  &.nav{
+    font-size: 2rem;
+
+  }
+}
