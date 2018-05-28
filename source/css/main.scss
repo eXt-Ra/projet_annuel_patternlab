@@ -5,7 +5,6 @@
   color : #22D0B2;
   &.nav{
     font-size: 2rem;
-
   }
 }
 
@@ -130,4 +129,41 @@ input[type="radio"] {
 }
 [type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
+}
+
+//card
+.card {
+  .title{
+    color: $primary;
+    border-bottom: 2px solid $primary;
+    padding-bottom: 5px;
+  }
+  .content{
+    font-size: 12px;
+  }
+  .card-footer-item{
+    background-color: $primary;
+    color: white;
+  }
+}
+
+//service-item
+
+.media{
+  //box-shadow: 0px 6px 6px 0px rgba(199,199,199,1);
+  align-items: center;
+  .media-content{
+    p{
+      strong{
+        font-weight: normal;
+        color :$primary;
+        font-size: 31px;
+      }
+    }
+  }
+  .media-right{
+    svg{
+      fill :$primary;
+    }
+  }
 }
