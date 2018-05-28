@@ -1,0 +1,25 @@
+<div id="RechercheCalendar">
+    <div id="Recherche">
+        <label>Recherche : <br>
+            {{# Recherche }}
+                {{> atoms-text-field }}
+            {{/ Recherche }}
+        </label>
+        <button>{{> atoms-search }}</button>
+    </div>
+
+    <div id="Calendar">
+        <div id="depart">
+            <label>départ :
+                {{> atoms-input-calendar }}
+            </label>
+        </div>
+        <div id="retour">
+            <label>retour :
+                {{> atoms-input-calendar }}
+            </label>
+        </div>
+    </div>
+</div>
+
+
