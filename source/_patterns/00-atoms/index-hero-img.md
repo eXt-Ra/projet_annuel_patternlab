@@ -1,5 +1,5 @@
 ---
-title: Navbar
+title: index-hero-img
 ---
 
 [Insert description here]

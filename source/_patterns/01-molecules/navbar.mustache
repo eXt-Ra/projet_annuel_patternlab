@@ -1,7 +1,8 @@
 <nav class="navbar is-transparent">
     <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        <!--{{>00-atoms/header-brand-logo.mustache }}-->
+        <a class="navbar-item">
+            <h1>Aquito</h1>
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
             <span></span>
@@ -9,38 +10,30 @@
             <span></span>
         </div>
     </div>
-
     <div id="navbarExampleTransparentExample" class="navbar-menu">
-        <div class="navbar-start">
-            <a class="navbar-item has-text-info is-size-5" href="">
+        <div class="navbar-item center">
+            <a class="navbar-item is-size-5" href="">
                 Accueil
             </a>
-            <a class="navbar-item has-text-info is-size-5" href="">
+            <a class="navbar-item is-size-5" href="">
                 Annonce
             </a>
-            <a class="navbar-item has-text-info is-size-5" href="">
+            <a class="navbar-item is-size-5" href="">
                 Service
             </a>
         </div>
 
         <div class="navbar-end">
-            <div class="navbar-item">
-                <div class="field is-grouped">
-
-
-                    <a class="navbar-item">
-                        <!-- Icon profile -->
-                        <img src="https://bulma.io/images/bulma-logo.png" width="36" height="36" alt="Bulma">
-                    </a>
-
-                    <p class="control">
-                        <!-- Acces profile -->
-                        <a class="button is-primary" href="">
-
-
-                            <span class="s-size-6">Profil</span>
-                        </a>
-                    </p>
+            <div class="navbar-item usermenu">
+                <div>
+                   <img src="https://randomuser.me/api/portraits/med/women/2.jpg"/>
+                </div>
+                <div>
+                    <span>Username</span>
+                    <div class="usermenu-button-group">
+                        <a class="button is-primary">Mon profile</a>
+                        <a class="button is-primary">{{>00-atoms/SVG/logout}}</a>
+                    </div>
                 </div>
             </div>
         </div>
